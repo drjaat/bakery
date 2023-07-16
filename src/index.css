@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* styles.css */
+/* Light Theme */
+:root {
+  --bg-color: #f7fafc;
+  --text-color: #1a202c;
+  /* Add other light theme color variables here */
+}
+
+/* Dark Theme */
+[data-theme='dark'] {
+  --bg-color: #1a202c;
+  --text-color: #f7fafc;
+  /* Add other dark theme color variables here */
+}
